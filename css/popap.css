@@ -1,0 +1,102 @@
+*{
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;   
+}
+.button_orange{
+    /* margin-top: 40px;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center; */
+}
+/* .button_orange a{
+    background-color: orange;
+    padding: 20px 50px;
+    border-radius: 10px;
+    text-decoration: none;
+    color: #fff;
+    font-weight: 500;
+} */
+/* #open_pop_up_orange{
+    margin: auto;
+} */
+.pop_up_orange{
+    
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    background-color: transparent;
+    z-index: 2;
+    transform: translateY(0) scale(0);
+    transition: .4s ease-in-out;
+    
+}
+.pop_up_orange.active_orange{
+    transform: translateY(0%) scale(100%);
+    background-color: rgba(0, 0, 0, .8);
+}
+.pop_up_container_orange{
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+.pop_up_body_orange{
+    margin: auto;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 40px;
+    color: #3A4574;
+    background-color: #fff;
+    border-radius: .6rem;
+    text-align: center;
+    padding: 50px 15px 50px 15px;
+    position: relative;
+}
+.pop_up_body_orange form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+.pop_up_body_orange form input{
+    width: 80%;
+    padding: 5px 0 5px 10px;
+    border: 1px solid #000;
+    border-radius: 5px;
+}
+.pop_up_body_orange button{
+    cursor: pointer;
+    display: block;
+    width: 80%;
+    margin: 60px auto 0px auto;
+    font-weight: 500;
+    font-size: 16px;
+    border: none;
+    color: #fff;
+    border-radius: 10px;
+    background-color: #3A4574;;
+    padding: 20px 0px;
+}
+.pop_up_close_orange{
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    font-size: 21px;
+    cursor: pointer;
+    color: #3A4574
+}
+input:valid:not(:placeholder-shown) {
+    border-color: green;
+  }
+  
+  input:invalid:not(:placeholder-shown) {
+    border-color: red;
+  }
+  

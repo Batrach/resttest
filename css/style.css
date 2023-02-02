@@ -1,0 +1,218 @@
+@import url(./reset.css);
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+*{
+    font-family:'Poppins';
+    /* margin: auto; */
+}
+body{
+    max-width: 1920px;
+    
+}
+.none{
+    display: none !important;
+}
+
+header{
+    background-image: url(../image/header/background.png);
+    height: 901px;
+    color: #fff;
+    
+}
+.header__container{
+    margin: auto;
+    width: 1169px;
+    /* width: 100%; */
+    /* padding-left: 376px;
+    padding-right: 376px; */
+    padding-top: 55px;
+    
+}
+.header__logo{
+   
+}
+
+.header__row{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 130px;
+    margin-bottom: 154px;
+}
+.header__nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 45px;
+    
+}
+.section--burger{
+    display: none;
+}
+.header__nav__row{
+    display: flex;
+    justify-content: flex-end;
+    gap: 159px;
+}
+.header__nav__mobile{
+    display: none;
+}
+.header__nav li{
+    cursor: pointer;
+}
+.header__phone{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+   
+    gap: 13px;
+  
+}
+.header__phone__phonenumber{
+    cursor: pointer;
+}
+.header__content{
+    /* width: 1168px; */
+    width: 100%;
+}
+.header__content h2{
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 24px;
+}
+.header__content h1{
+
+font-size: 64px;
+font-weight: 700;
+line-height: 88px;
+letter-spacing: 0em;
+text-align: left;
+margin-bottom: 40px;
+
+}
+.header__content__row{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    /* gap: 633px; */
+}
+.header__content__btn{
+    padding-left: 0px;
+    margin-left: 0px;
+    width: 210px;
+    height: 100px;
+    text-align: center;
+    line-height: 100px;
+    background-color: #3A4574;
+    transition: 0.5s ease-in-out;
+}
+.header__content__social{
+    display: flex;
+    justify-content: flex-end;
+    gap: 25px;  
+}
+.header__content__row{
+    width: 1168px;
+    display: flex;
+    justify-content: space-between;
+}
+.header__content__social button{
+    height: 48px;
+width: 48px;
+border: 1px solid #fff;
+border-radius: 50%;
+text-align: center;
+line-height: 48px;
+font-weight: 600;
+transition: .5s ease-in-out;
+}
+.main__container{
+    margin: auto;
+    width: 1168px;
+    /* padding-left: 376px;
+    padding-right: 376px; */
+    padding-top: 80px;
+}
+.maim__container__row{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 32px;
+    margin-bottom: 90px;
+}
+.main__container__content{
+    width: 469px;
+}
+.main__container__content--block--title{
+    margin-bottom: 10px;
+font-size: 24px;
+font-weight: 600;
+text-align: left;
+}
+.main__container__content--block--description{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 12px;
+    font-weight: 400;
+font-size: 18px;
+    margin-bottom: 20px;
+}
+.main__container__content--block--description img{
+
+    height: 5px;
+    /* font-size: 0; */
+}
+hr{
+    border: 1px solid #E7E7E7;
+    margin-bottom: 20px;
+}
+.main__container__images{
+    position: relative;
+    display: flex;
+    justify-content: flex-start;
+    gap: 22px;
+    /* height: 485px; */
+}
+.main__container__images--left{
+    display: flex;
+    height: 638px;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+.main__container__content--block{
+    width: 469px;
+}
+.main__container__images--background{
+    position: absolute;
+    width: 471px;
+    height: 502px;
+    border: 2px solid #D3B47F;
+    top: 51px;
+    right: 100px;
+    z-index: -1;
+}
+footer{
+    background-color: #3A4574;
+    height: 782px;
+    display: flex;
+    align-items: center;
+}
+
+
+.contact__form--input{
+    border: 1px solid #3A4574;
+}
+.header__content__social button:hover{
+    color: rgba(247, 23, 139);
+    background-color:  rgba(59, 89, 152, 0.3) ;
+    border-color: rgba(247, 23, 139);
+}
+.header__content__btn:hover{
+    color: rgba(59, 89, 152);
+    background-color: #c17441;
+   font-size: 18px;
+}
+
